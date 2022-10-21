@@ -1,5 +1,5 @@
 # NTRUReEncrypt_Attack
-We propose an efficient key recovery attack against NTRUReEncrypt(a PRE scheme), whose parameter sets are related NTRU schemes. For specific scheme on parameter sets ees1087ep1, ees1171ep1, ees1499ep1, where N equals 1087, 1171 and 1499 respectively, our experiments are all completed to recover private keys on PC using SageMath 9.6.
+We propose an efficient key recovery attack against NTRUReEncrypt(a PRE scheme), whose parameter sets are related to NTRU schemes. For specific scheme on parameter sets ees1087ep1, ees1171ep1, ees1499ep1, where N equals 1087, 1171 and 1499 respectively, our experiments are all completed to recover private keys on PC using SageMath 9.6.
 
 Without loss of generality, assume Bob is the attacker. The source code is divided into three modules：
 1. We construct an experimentally used encryption system to collect enough ciphtexts and obtain original keys.
